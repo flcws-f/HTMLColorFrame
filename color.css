@@ -1,8 +1,3 @@
-/**
-© TheHealthOfYou
-2022/04/13
-7:56
-*/
 .danger{
 background-color:#ff0000;
 color:white;
@@ -54,12 +49,10 @@ border-radius:10px;
 border:5px solid black;
 }
 a{
-text-decoration:none;
 border-radius:10px;
 outline:0px;
 }
 a:hover{
-text-decoration:none;
 border-radius:10px;
 background-color:skyblue;
 }
@@ -90,4 +83,23 @@ color:red;
 }
 s{
 color:red;
+}
+.baw{
+filter:grayscale(100%);
+}
+@keyframes bas{
+from{
+padding:0px;
+}
+to{
+padding:100px;
+}
+}
+.bas{
+width:100px;
+height:100px;
+animation: bas .5s forwards infinite alternate;
+background-color:red;
+color:white;
+text-align:center;
 }
