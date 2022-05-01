@@ -1,194 +1,150 @@
 .danger{
-background-color:#ff0000;
-color:white;
-border-color:#ff7777;
-padding:5px;
+  background-color:#ff0000;
+  color:white;
+  border-color:#ff7777;
+  padding:5px;
 }
 .danger:hover{
-background-color:#ff0000;
-color:white;
-border:5px solid orange;
+  background-color:#ff0000;
+  color:white;
+  border:5px solid orange;
 }
 .success{
-background-color:#009000;
-color:white;
-border-color:#086777;
-padding:5px;
+  background-color:#009000;
+  color:white;
+  border-color:#086777;
+  padding:5px;
 }
 .success:hover{
-background-color:#009000;
-color:white;
-border:5px solid yellowgreen;
+  background-color:#009000;
+  color:white;
+  border:5px solid yellowgreen;
 }
 .dark{
-background-color:#000000;
-color:white;
-border-color:#003333;
+  background-color:#000000;
+  color:white;
+  border-color:#003333;
 }
 .dark:hover{
-background-color:#000000;
-color:white;
-border:5px solid dimgrey;
+  background-color:#000000;
+  color:white;
+  border:5px solid dimgrey;
 }
 button{
-border-radius:10px;
-padding:5px;
-outline:0px;
+  border-radius:10px;
+  padding:5px;
+  outline:0px;
 }
 button:hover{
-border-radius:10px;
-border:5px solid grey;
+  border-radius:10px;
+  border:5px solid grey;
 }
 input{
-border-radius:10px;
-padding:5px;
-outline:0px;
+  border-radius:10px;
+  padding:5px;
+  outline:0px;
 }
 input:hover{
-border-radius:10px;
-border:5px solid black;
+  border-radius:10px;
+  border:5px solid black;
 }
 a{
-border-radius:10px;
-outline:0px;
+  border-radius:10px;
+  outline:0px;
 }
 a:hover{
-border-radius:10px;
-background-color:skyblue;
+  border-radius:10px;
+  background-color:skyblue;
 }
 .short{
-line-height:0px;
+  line-height:0px;
 }
 .tall{
-line-height:50px;
+  line-height:50px;
 }
 kbd{
-background-color:black;
-color:white;
-border-radius:5px;
+  background-color:black;
+  color:white;
+  border-radius:5px;
 }
 code{
-background-color:#ffd0ff;
-color:#ff00ff;
-border-radius:5px;
+  background-color:#ffd0ff;
+  color:#ff00ff;
+  border-radius:5px;
 }
 div{
-border-radius:10px;
+  border-radius:10px;
 }
 p{
-border-radius:10px;
+  border-radius:10px;
 }
 del{
-color:red;
+  color:red;
 }
 s{
-color:red;
+  color:red;
 }
 .baw{
-filter:grayscale(100%);
+  filter:grayscale(100%);
 }
 @keyframes bas{
-from{
-padding:0px;
-}
-to{
-padding:100px;
-}
+  from{
+    padding:0px;
+  }
+  to{
+    padding:100px;
+  }
 }
 .bas{
-width:100px;
-height:100px;
-animation: bas .5s forwards infinite alternate;
-background-color:red;
-color:white;
-text-align:center;
+  width:100px;
+  height:100px;
+  animation: bas .5s forwards infinite alternate;
+  background-color:red;
+  color:white;
+  text-align:center;
 }
 @keyframes l_o{
-
 from{
-
 color:white;
-
 -webkit-transform:rotateY(100deg);
-
 }
-
 to{
-
 -webkit-transform:rotateY(0deg);
-
 }
-
 }
-
 @keyframes r_o{
-
 from{
-
 color:white;
-
 -webkit-transform:rotateY(0deg);
-
 }
-
 to{
-
 -webkit-transform:rotateY(180deg);
-
 }
-
 }
-
 .bottom_open{
-
 animation:t_o 1s forwards alternate;
-
 }
-
 .top_open{
-
 animation:b_o 1s forwards alternate;
-
 }
-
 .left_open{
-
 animation:l_o 1s forwards alternate;
-
 }
-
 .right_open{
-
 animation:r_o 1s forwards alternate;
-
 }
-
 @keyframes b_o{
-
 from{
-
 color:white;
-
 -webkit-transform:rotateX(100deg);
-
 }
-
 }
-
 @keyframes t_o{
-
 from{
-
 color:white;
-
 -webkit-transform:rotateX(100deg);
-
 }
-
 to{
-
 -webkit-transform:rotateX(0deg);
-
 }
-
 }
