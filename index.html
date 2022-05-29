@@ -4,6 +4,7 @@
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>color框架，你的最爱！</title>
 <script src="js/jquery.min.js"></script>
+<script src="color.js"></script>
 <link rel="stylesheet" type="text/css" href="color/color.css"></link>
 </head>
 <body id="body">
@@ -28,4 +29,10 @@
 <img src="appIcon.png" width="100" class="baw"/>黑白图片<br>
 <p class="bas">放大缩小动画</p>
 </body>
+<script>
+window.onload=function(){
+color.ps("提示","正在等待！")
+setTimeout('color.ps("提示","时间到了！")',3000)
+}
+</script>
 </html>
