@@ -104,47 +104,59 @@ s{
   text-align:center;
 }
 @keyframes l_o{
-from{
-color:white;
--webkit-transform:rotateY(100deg);
-}
-to{
--webkit-transform:rotateY(0deg);
-}
+  from{
+    color:white;
+    -webkit-transform:rotateY(100deg);
+  }
+  to{
+    -webkit-transform:rotateY(0deg);
+  }
 }
 @keyframes r_o{
-from{
-color:white;
--webkit-transform:rotateY(0deg);
-}
-to{
--webkit-transform:rotateY(180deg);
-}
+  from{
+    color:white;
+    -webkit-transform:rotateY(0deg);
+  }
+  to{
+    -webkit-transform:rotateY(180deg);
+  }
 }
 .bottom_open{
-animation:t_o 1s forwards alternate;
+  animation:t_o 1s forwards alt"ernate;
 }
 .top_open{
-animation:b_o 1s forwards alternate;
+  animation:b_o 1s forwards alternate;
 }
 .left_open{
-animation:l_o 1s forwards alternate;
+  animation:l_o 1s forwards alternate;
 }
 .right_open{
-animation:r_o 1s forwards alternate;
+  animation:r_o 1s forwards alternate;
 }
 @keyframes b_o{
-from{
-color:white;
--webkit-transform:rotateX(100deg);
-}
+  from{
+    color:white;
+    -webkit-transform:rotateX(100deg);
+  }
 }
 @keyframes t_o{
+  from{
+    color:white;
+    -webkit-transform:rotateX(100deg);
+  }
+  to{
+    -webkit-transform:rotateX(0deg);
+  }
+}
+@keyframes small{
 from{
-color:white;
--webkit-transform:rotateX(100deg);
+width:100%;
+height:100%;
+font-size:100%;
 }
 to{
--webkit-transform:rotateX(0deg);
+width:0%;
+height:0%;
+font-size:0%;
 }
 }
