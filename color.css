@@ -7,7 +7,7 @@
 .danger:hover{
   background-color:#ff0000;
   color:white;
-  border:5px solid orange;
+  border:1px solid orange;
 }
 .success{
   background-color:#009000;
@@ -18,7 +18,7 @@
 .success:hover{
   background-color:#009000;
   color:white;
-  border:5px solid yellowgreen;
+  border:1px solid yellowgreen;
 }
 .dark{
   background-color:#000000;
@@ -28,34 +28,32 @@
 .dark:hover{
   background-color:#000000;
   color:white;
-  border:5px solid dimgrey;
+  border:1px solid dimgrey;
 }
 button{
-  border-radius:10px;
+  border-radius:5%;
   padding:5px;
   outline:0px;
+  background-color:white;
 }
 button:hover{
-  border-radius:10px;
-  border:5px solid grey;
+  border-radius:20%;
 }
 input{
   border-radius:10px;
   padding:5px;
   outline:0px;
+  background-color:white;
 }
 input:hover{
   border-radius:10px;
-  border:5px solid black;
+  border:1px solid orange;
 }
 a{
   border-radius:10px;
   outline:0px;
 }
-a:hover{
-  border-radius:10px;
-  background-color:skyblue;
-}
+
 .short{
   line-height:0px;
 }
@@ -149,14 +147,14 @@ s{
   }
 }
 @keyframes small{
-from{
-width:100%;
-height:100%;
-font-size:100%;
-}
-to{
-width:0%;
-height:0%;
-font-size:0%;
-}
+  from{
+    width:100%;
+    height:100%;
+    font-size:100%;
+  }
+  to{
+    width:0%;
+    height:0%;
+    font-size:0%;
+  }
 }
